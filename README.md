@@ -1,8 +1,42 @@
-# React + Vite
+# On follow 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ ## A fully stacked social networking site To share photos
+  
+  * Website responds 📱 💻
+* Full stack 
+* Upload photos 📸
+---
+* vite.js ⚡
+* tailwind css
+* AXIOS ⚡
+* Sanity
+* UUID
+* image-url
+ 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Alt Text](./READMEfiles/chrome-capture.png)
+
+
+# Category
+![Alt Text](./READMEfiles/wll.gif)
+
+# Profile
+![Alt Text](./READMEfiles/profile.gif)
+# Home
+![Alt Text](./READMEfiles/home.gif)
+# on Phone
+![Alt Text](./READMEfiles/phone.gif)
+
+
+ 
+
+
+---
+---
+---
+
+
+## [DEMO  ](https://onfollow.netlify.app) 🌍 🌌 ✈   
+ 
+ 

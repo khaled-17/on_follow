@@ -25,7 +25,7 @@ function Navbar({ searchTerms, setSearchTerms, user }) {
       </div>
 
       <div className="flex ">
-        <Link to={`user-profile/${user?.id}`} className="hidden md:block">
+        <Link to={`user-profile/${user?.id}`} className="hidden md:block">dd
           <img src={user?.picture} className="w-14 h-12 rounded-lg hover:-rotate-6  " alt="" />
         </Link>
 
