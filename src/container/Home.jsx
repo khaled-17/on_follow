@@ -71,18 +71,31 @@ useEffect(() => {
         </div>
 
        </div>
+
+
+
+
 {ToggleSideBar && (
 
-<div className="fixed w-4/5 bg-white h-screen overflow-y-auto shadow-md  animate-slide-in order-3 border-red-300 z-40">
+<div className="fixed w-4/5 bg-white h-screen overflow-y-auto shadow-md  animate-slide-in order-3 border-red-300  z-50">
   <div className="absolute w-full flex justify-end items-center p-2">
     <AiFillCloseCircle fontSize={30} onClick={()=>segToogleSideBar(false)}/>
   </div>
-
+  
   <Sidebar  user={userinfo&&userinfo} closeToggle={segToogleSideBar}/>
-
 </div>
   )}
         <div className='pd-2 flex-1 h-screen overflow-y-scroll ' ref={scrollRef}>  
+
+
+        {ToggleSideBar && (
+
+          
+           <div onClick={()=>segToogleSideBar(false)} 
+          className='fixed h-screen w-screen bg-white z-40 opacity-90'>
+        </div> 
+
+        )}
 <Routes>
   <Route path='/*' element={<Pins user={userinfo&&userinfo} />}  />
   <Route path='/user-profile/:userId' element={<UserProfile />}>

@@ -36,7 +36,7 @@ const theLogout =()=>{
  
    return (
     // <div className='   border-4 border-red-300  flex flex-col justify-between bg-white h-full overflow-scroll min-w-210 hide-scrollbar '>
-    <div className="flex flex-col justify-between  hover:bg-gray-100 h-full overflow-y-scroll min-w-210 hide-scrollbar ">
+    <div className="flex flex-col justify-between  hover:bg-gray-100 h-full overflow-y-scroll  hide-scrollbar  ">
 
      <div className='flex flex-col  '>
 <Link 
