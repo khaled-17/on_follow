@@ -5,6 +5,7 @@
   * Website responds 📱 💻
 * Full stack 
 * Upload photos 📸
+* login by Google 🎯
 ---
 * vite.js ⚡
 * tailwind css
