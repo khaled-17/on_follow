@@ -83,9 +83,10 @@ onClick={handleCloseSideBar}
 
 {user&&(
   <>
+  
   <Link
   to={`/user-profile/${user?.id}`}
-  className='flex my-5 mb-3  mx-3 gap-3 p-2 items-center  bg-white shadow-lg rounded-lg flex-wrap '
+  className='flex mb-3 w-4/6 mx-3 gap-3 p-2 items-center  bg-white shadow-2xl rounded-lg flex-wrap '
   
   >
   

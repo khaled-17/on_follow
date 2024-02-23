@@ -78,9 +78,12 @@ useEffect(() => {
 {ToggleSideBar && (
 
 <div className="fixed w-4/5 bg-white h-screen overflow-y-auto shadow-md  animate-slide-in order-3 border-red-300  z-50">
-  <div className="absolute w-full flex justify-end items-center p-2">
-    <AiFillCloseCircle fontSize={30} onClick={()=>segToogleSideBar(false)}/>
-  </div>
+ 
+ 
+ 
+  <div className="absolute w-full flex justify-end items-center p-2  ">
+      <AiFillCloseCircle className='hover:-rotate-6' fontSize={30} onClick={()=>segToogleSideBar(false)}/>
+   </div>
   
   <Sidebar  user={userinfo&&userinfo} closeToggle={segToogleSideBar}/>
 </div>
