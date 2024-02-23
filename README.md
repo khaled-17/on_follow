@@ -19,12 +19,12 @@
 
 
 # Category
-![Alt Text](./READMEfiles/wll.gif)
+![Category img loading](./READMEfiles/wll.gif)
 
 # Profile
-![Alt Text](./READMEfiles/profile.gif)
+![Profile img loading](./READMEfiles/profile.gif)
 # Home
-![Alt Text](./READMEfiles/home.gif)
+![Home loading](./READMEfiles/home.gif)
 # on Phone
 ![Alt Text](./READMEfiles/phone.gif)
 
